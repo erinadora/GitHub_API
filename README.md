@@ -11,16 +11,14 @@ This program asks the user to submit a GitHub username and outputs the public re
 ## Setup/Installation Requirements
 
 * Clone this repository
-* Run these commands in terminal:
-  * npm install
-  * bower install
-  * gulp
-
-
-## Known Bugs
-
-None
-
+* Use user.env to create independent .env file
+* Input personal github API key
+* Run these commands in terminal and install globally:
+  * npm install -g
+  * bower install -g
+  * gulp build
+  * gulp serve
+  
 ## Support and contact details
 
 Please contact Erin Goncer for any questions.
@@ -33,4 +31,4 @@ Javascript, Bootstrap, Node, NPM, Bower, jQuery, SASS
 
 MIT License
 
-Copyright (c) [2016] [Erin Goncer]
+Copyright (c) 2016 Erin Goncer

@@ -6,5 +6,6 @@ $(document).ready(function(){
     var username = $('#username').val();
     getRepos();
     $('input#username').val('');
+    $('#results').val('');
   });
 });
