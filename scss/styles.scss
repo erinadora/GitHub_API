@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'title';
+  src: url("../fonts/basictitlefont.ttf");
+}
+
+@font-face {
+  font-family: 'gondola';
+  src: url("../fonts/Gondola.ttf");
+}
+
+$mint : #BCF5ED;
+$lav : #D0BCF5;
+$peach : #F5BAC3;
+$slate : #454545;
+
+body {
+  font-family: gondola;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin: auto;
+
+  color: $slate;
+}
+
+
+header {
+  text-align: center;
+  height: 170px;
+  padding: 15px;
+  color: #fff;
+  background-color: $lav;
+    h1 {
+      font-family: gondola;
+      letter-spacing: -1px;
+      font-size: 55px;
+    }
+    h2 {
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      max-width: 500px;
+      margin: auto;
+    }
+}
+
+#arrow {
+  width: 8px;
+  margin: 3px;
+  padding-bottom: 2px;
+  clear: left;
+}
+
+#github {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  label {
+    font-size: 120%;
+  }
+  input {
+    border: none!important;
+    border-bottom: 1px solid #999!important;
+  }
+    textarea:focus, input[type="text"]:focus, .uneditable-input:focus {
+    border-color: none!important;
+    box-shadow: none!important;
+    outline: 0 none!important;
+    }
+  button {
+    background-color: transparent;
+    text-transform: uppercase;
+    box-shadow: none;
+    border-style: none;
+    border-image: none;
+    border: 1px solid $slate;
+    padding: 5px!important;
+    margin: 5px;
+  }
+}
+
+#results {
+  width: 500px;
+  margin: auto!important;
+  left: 50%;
+  text-align: center;
+  #output {
+    h2 {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 190px;
+    margin: 20px auto;
+    border: 1px solid $slate;
+    padding-top: 6px;
+    vertical-align: middle;
+    }
+    img {
+      width: 200px;
+      border-radius: 90px;
+    }
+  #repos {
+    width: 400px;
+    display: inline-block;
+    word-wrap: normal;
+  }
+    .view {
+      display: inline!important;
+      padding-left: 10px!important;
+    }
+  }
+}
+
+li {
+  text-align: left;
+  width: 380px;
+  margin: auto!important;
+}
+
+#repos img {
+  margin-left: -3px!important;
+  padding-top:2px;
+}
+
+.color {
+  color: $mint;
+}

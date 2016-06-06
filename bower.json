@@ -1,0 +1,21 @@
+{
+  "name": "git",
+  "description": "#### 5/26/2016",
+  "main": "gulpfile.js",
+  "authors": [
+    "Erin Goncer"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/erinadora/GitHub_API",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6"
+  }
+}
