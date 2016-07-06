@@ -1,4 +1,4 @@
-# GitHub API Repo List - JS Week 1
+# GitHub API Repo List 
 
 #### 5/26/2016
 
